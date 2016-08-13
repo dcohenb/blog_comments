@@ -1,0 +1,22 @@
+{
+  "name": "blog_comments",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "mock": "node index.js --mock"
+  },
+  "author": "Daniel Cohen",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.14.0",
+    "md5": "^2.1.0",
+    "mongoose": "^4.5.8"
+  },
+  "devDependencies": {
+    "faker": "^3.1.0",
+    "lorem-ipsum": "^1.0.3"
+  }
+}
